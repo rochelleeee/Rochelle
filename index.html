@@ -1,0 +1,148 @@
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 100%;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+        padding: 2px 16px;
+    }
+</style>
+
+<body>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="style.js"></script>
+    </head>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <input type="checkbox" name="" id="checkbox">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+        
+            <ul class="menu-items" style="margin-right: 1000px;">
+                
+                <li><a href="index.html" id="ac" style="color: black;">Home</a></li>
+                <li><a href='itemGallery.html' style="color: black;">Shop</a></li>
+                <li><a href="aboutPage.html" style="color: black;">About</a></li>
+                
+            </ul>
+            
+            <div class="logo">
+                <a href="index.html"><img src="image/logopuff.png" alt="" style="height: 64px; width: 200px;"></a>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="home_page ">
+            <div class="home_img ">
+                <img src="image/puffbg.jpg" alt="img " style="height: 700px;">
+            </div>
+            <div class="home_txt ">
+                
+                <h2>POWER PUFF GIRLS<br> COLLECTION</h2>
+                <div class="home_label ">
+                    <p>Embrace Girl Power with Nostalgic Fashion!</p>
+                </div>
+                
+                <div class="home_social_icons">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-pinterest'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="news" style="height: 150px;">
+        <div class="news-heading">
+            <p>Power Puff Girls Wear</p>
+                
+        </div>
+        <div class="l-news container">
+            <div class="l-news1" style="padding: 10px;">
+                
+                <div class="card">
+                    <img src="image/1.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      
+                      <p>Power Puff Clothing</p> 
+                    </div>
+                  </div>
+            </div>
+            <div class="l-news2" style="padding: 10px;">
+                <div class="card">
+                    <img src="image/2.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      
+                      <p>Power Puff Clothing</p> 
+                    </div>
+                  </div>
+            </div>
+            <div class="l-news3" style="padding: 10px;">
+                <div class="card">
+                    <img src="image/3.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      
+                      <p>Power Puff Clothing</p> 
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact container">
+
+            <form action="https://formspree.io/f/xzbowpjq" method="POST">
+                <div class="form">
+                    <div class="form-txt">
+                        <h4>INFORMATION</h4>
+                        <br>
+                        <h3>Location</h3>
+                        <p>San Agustin, Candaba, Pampanga<br>09651234564</p>
+                        <br><br><br>
+                        <div class="form-details">
+                            <input type="text" name="name" id="name" placeholder="Name" required>
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                            <textarea name="message" id="message" cols="52" rows="7" placeholder="Message"
+                                required></textarea>
+                            <button style="color: white;">SEND MESSAGE</button>
+                        </div>
+
+
+                    </div class="form-details">
+                    <div class="card">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.7617836810714!2d121.04673727495047!3d14.669455885825084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b77f9d256435%3A0xab15df559f39e3e7!2sPowerpuff%20Girls%20and%20Mojo%20Jojo%20Residence!5e0!3m2!1sen!2sph!4v1708177833154!5m2!1sen!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+
+
+
+
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+
+        <div class="f-design">
+            <div class="f-design-txt container">
+                <p style="color: black;">All Rights Reserved by Powerpuff Girls</p>
+            </div>
+        </div>
+    </footer>
+</body>
